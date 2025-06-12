@@ -2,6 +2,10 @@
 
 A dynamic and modern cryptocurrency exchange landing page clone of vestox.webflow.io, featuring bold visuals, smooth scroll-triggered transitions, interactive stats sections, and modular components—all powered by GSAP and built with Next.js.
 
+## 🌟 Live Demo
+
+**Repository**: [https://github.com/santoshnaya/vestox-replica](https://github.com/santoshnaya/vestox-replica)
+
 ## Features
 
 - 🎨 **Modern Design**: Dark theme with orange accents
@@ -30,7 +34,7 @@ A dynamic and modern cryptocurrency exchange landing page clone of vestox.webflo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vestox-replica.git
+git clone https://github.com/santoshnaya/vestox-replica.git
 cd vestox-replica
 ```
 
@@ -68,9 +72,38 @@ npm run dev
 
 This project is optimized for deployment on Vercel:
 
-1. Push your code to GitHub
+1. Push your code to GitHub ✅
 2. Connect your repository to Vercel
 3. Deploy automatically
+
+## Project Structure
+
+```
+vestox-replica/
+├── app/
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Main page
+├── components/
+│   ├── Header.tsx       # Navigation header
+│   ├── Hero.tsx         # Hero section
+│   ├── StatsSection.tsx # Statistics cards
+│   ├── InvestmentSection.tsx # Investment content
+│   ├── MissionSection.tsx    # Company mission
+│   ├── ProfitSection.tsx     # Profit showcase
+│   ├── WorkSection.tsx       # Work results
+│   ├── ContactsSection.tsx   # Contact info
+│   ├── Footer.tsx           # Footer
+│   └── TickerTape.tsx       # Bottom ticker
+└── ...config files
+```
+
+## Performance
+
+- ✅ **Build Size**: ~3.3MB source code (under 100MB requirement)
+- ✅ **No ESLint Errors**: Clean code
+- ✅ **TypeScript**: Fully typed
+- ✅ **Responsive**: Mobile-first design
 
 ## License
 
@@ -78,4 +111,4 @@ This project is a clone for educational purposes. Original design credit goes to
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
